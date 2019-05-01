@@ -36,6 +36,7 @@ main {
 footer {
   display: flex;
   align-items: center;
+  flex-direction: column;
 
 
 }
@@ -43,4 +44,19 @@ footer {
 h1 {
   text-align: center;
   color: grey
+}
+
+main {
+  display: flex;
+}
+
+.container_1 {
+  margin: 15px;
+  border: solid;
+  padding: 15px;
+}
+
+.gaspar {
+  height: 200px;
+  width: 200px;
 }
