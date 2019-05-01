@@ -54,7 +54,9 @@ main {
 
 h1 {
   text-align: center;
-  color: grey
+  color: grey;
+  font-family: 'PT Serif', serif;
+  font-size: 4rem;
 }
 
 h2 {
@@ -90,4 +92,11 @@ main {
 
 h3 {
   text-align: center;
+}
+
+@media screen and (max-width: 750px) {
+  body {
+    border: solid;
+    border-color: blueviolet
+  }
 }
