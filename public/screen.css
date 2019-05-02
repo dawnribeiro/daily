@@ -94,9 +94,29 @@ h3 {
   text-align: center;
 }
 
-@media screen and (max-width: 750px) {
-  body {
+
+
+
+@media screen and (max-height: 400px) {
+  .container_1 {
     border: solid;
-    border-color: blueviolet
+    border-color: blueviolet;
   }
+}
+
+/*@media .container_2 and (max-height: 400px) {
+  .container_1 {
+    border: solid;
+    border-color: blueviolet;
+
+  }
+}
+
+@media main and (max-width: 400px) {
+  .container_1 {
+    border: solid;
+    border-color: blueviolet;
+  }
+
+
 }
